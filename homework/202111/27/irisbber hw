@@ -1,0 +1,45 @@
+Reliable, scalable and maintainbale application
+
+
+Most of application is data intensive in stead of compute-intensive
+
+Data-intensive applicate:
+	- Database
+	- Remember the result of expensive(cache)
+	- Search indexes
+	- Stream procession
+	- Batch processing
+
+
+
+Fundamentals:
+	- Reliability
+			§ Systenm shoul work correctly even in the face of adversity(heardware, software, human fault).
+			§ Performs function expected
+			§ Tolerate mistakes
+			§ Performance is good enough under expected load and data volume.
+			§ Prevents unauthorized access and abuse.
+		Hardware faults
+			§ Usually solved by redundant resources + fault-tolerance techniques
+		Software faults
+			§ Test
+			§ Process iolation
+			§ Allow preccess to crash and restart
+			§ Measure and monitoring
+			§ Analyzing
+		Human fault
+	- Scalability
+		○ System's ability to cope with increase load
+		Load: 
+			- QPS
+			- Write/Read ratio
+			- Simultaneously active users
+			- Hit rate on a cache
+			- Etc
+		Describe performance
+			- 
+		
+	- Maintability 
+		○ Should be easy to adapt the system to new use cases.
+	
+

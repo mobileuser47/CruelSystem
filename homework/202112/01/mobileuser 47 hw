@@ -1,0 +1,19 @@
+Data Model
+
+Relational model:
+	- Business data processing
+	- Lay out all the data in table
+	
+
+NOSQL
+	- Motivation
+		○ Scalability (larger dataset or high write throughput)
+		○ Specialized query operations
+		○ Need more dynamic and expressive data model
+	
+
+Relational database vs Document database
+
+	- Document database is schema flexible and beetter performance due to locality(no need to join)
+	- Relational database is good at joins, n to n and n t one relationships
+
